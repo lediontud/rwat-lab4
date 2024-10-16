@@ -5,9 +5,25 @@
     <title>Lab 4</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <h1>Lab 4 - Ledion Pashaj, C21317311</h1>
+    <button onclick="fetchDataSync()">Fetch Data (Sync)</button>
+    <button onclick="fetchDataAsync()">Fetch Data (Async)</button>
+    <button onclick="fetchDataFetch()">Fetch Data (Fetch API)</button>
+    
+    <div id="status-message"></div>
+    
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
     <script src="scripts.js"></script>
 </body>
-</html> 
+</html>
